@@ -1,3 +1,5 @@
+
+
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2 px 0 #d0d0d0;
 	-webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
@@ -24,4 +26,11 @@ body {
 	background:url('/assets/cartographer.png');
 	border-radius: 0;
 	box-shadow: 8px 8px 5px #888888;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #78EC93;
+	font-family: 'source_sans_proregular', sans-serif;
+	font-size:26px;
+	
 }
