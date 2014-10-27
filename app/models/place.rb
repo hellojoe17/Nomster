@@ -1,7 +1,7 @@
 class Place < ActiveRecord::Base
 	belongs_to :user
 	has_many :comments
-	paginates_per 2
+	paginates_per 4
 	geocoded_by :address
 	after_validation :geocode
 	
