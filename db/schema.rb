@@ -47,6 +47,8 @@ ActiveRecord::Schema.define(version: 20141029171103) do
   add_index "models", ["reset_password_token"], name: "index_models_on_reset_password_token", unique: true, using: :btree
 
   create_table "photos", force: true do |t|
+    t.string   "caption"
+    t.string   "place_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
